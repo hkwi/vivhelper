@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/hkwi/vivhelper#readme",
   "dependencies": {
+    "@vivliostyle/cli": "^7.2.2",
     "deasync": "^0.1.28",
-    "pako": "^2.1.0",
-    "refractor": "^4.8.1"
+    "pako": "^2.1.0"
   }
 }
