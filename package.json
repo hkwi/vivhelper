@@ -1,0 +1,27 @@
+{
+  "name": "vivhelper",
+  "version": "1.0.0",
+  "description": "vivliostyle-cli helper library",
+  "main": "dosvg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkwi/vivhelper.git"
+  },
+  "keywords": [
+    "vivliostyle"
+  ],
+  "author": "Hiroaki KAWAI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkwi/vivhelper/issues"
+  },
+  "homepage": "https://github.com/hkwi/vivhelper#readme",
+  "dependencies": {
+    "deasync": "^0.1.28",
+    "pako": "^2.1.0",
+    "refractor": "^4.8.1"
+  }
+}
