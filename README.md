@@ -14,4 +14,4 @@ Options are passed in environment variables.
 - KROKILANGS : Comma-delimited code block languages, which you'd like to convert to svg. This defaults to `mermaid`. `plantuml`, `mermaid,plantuml` may be used.
 - KROKIEMBED : Define this to use `data:` instead of `https://${KUROKIHOST}` img.src URL.
 
-One more hint, if `KROKIHOST` use self-signed certificate, then use both `NODE_EXTRA_CA_CERTS=cert.crt KROKIEMBED=1` would work.
+One more hint, if `KROKIHOST` use self-signed certificate, then use both `NODE_EXTRA_CA_CERTS=cert.crt KROKIEMBED=1`.
