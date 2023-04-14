@@ -6,7 +6,7 @@ dosvg.js replaces codeblock into svg image using [kroki](https://kroki.io/) API.
 Preloading the library will change the output.
 
 ```
-NODE_OPTIONS=--require=vivhelper/dosvg.js vivliostyle build input.md -o output.pdf
+NODE_OPTIONS=--require=vivhelper vivliostyle build input.md -o output.pdf
 ```
 
 Options are passed in environment variables.
