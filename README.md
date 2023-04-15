@@ -16,6 +16,11 @@ Options are passed in environment variables.
 
 One more hint, if `KROKIHOST` use self-signed certificate, then use both `NODE_EXTRA_CA_CERTS=cert.crt KROKIEMBED=1`.
 
+## Install
+
+```
+npm install git+https://github.com/hkwi/vivhelper.git
+```
 
 ## Troubleshooting
 
