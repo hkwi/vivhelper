@@ -3,7 +3,7 @@ vivliostyle-cli helper script.
 ## dosvg
 dosvg.js replaces codeblock into svg image using [kroki](https://kroki.io/) API.
 
-Preloading the library will change the output.
+To enable SVG conversion, preload this library with `vivliostyle` cli.
 
 ```
 NODE_OPTIONS=--require=vivhelper vivliostyle build input.md -o output.pdf
