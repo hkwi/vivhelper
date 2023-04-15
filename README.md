@@ -15,3 +15,8 @@ Options are passed in environment variables.
 - KROKIEMBED : Define this to use `data:` instead of `https://${KUROKIHOST}` img.src URL.
 
 One more hint, if `KROKIHOST` use self-signed certificate, then use both `NODE_EXTRA_CA_CERTS=cert.crt KROKIEMBED=1`.
+
+
+## Troubleshooting
+
+If you get `Error: Cannot find module 'vivhelper'`, then please set `NODE_PATH` so that nodejs can discover the module.
